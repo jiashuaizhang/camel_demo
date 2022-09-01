@@ -1,0 +1,4 @@
+/camel_demo_consumer/target/
+/camel_demo_producer/target/
+/camel_demo_producer/.idea/
+/camel_demo_consumer/.idea/

@@ -1,0 +1,19 @@
+camel:
+  springboot:
+    # give Camel a name
+    name: camel_demo_consumer
+    # keep camel running
+    main-run-controller: true
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: root
+      password: example
+      authentication-database: admin
+      database: camel
+  kafka:
+    bootstrap-servers: localhost:9092
+    topic:
+      demo: demo_topic
